@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-feb-2018, 9:10:08
+    Author     : David
+*/
+body{
+    -fx-background-color: lightgreen;
+}
+button{
+    -fx-background-color: lime;
+}
+.estiloAlert1 > button{
+    -fx-background-color: greenyellow;
+}
+.estiloAlert1 > *.button-bar > *.container{
+    -fx-background-color: #a9e200;
+}
+.estiloAlert1 > *.label.content{
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.estiloAlert1:header *.header-panel{
+    -fx-background-color: #a59c31;
+}
+.estiloAlert1:header *.header-panel *.label{
+    -fx-font-size: 18px;
+    -fx-font-style: italic;
+    -fx-fill: #292929;
+}
+.dialogo_panel {
+    -fx-background-color: #ff0000;
+}
+ 

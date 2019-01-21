@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="361.0" prefWidth="351.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.FXMLDocumentController">
+   <children>
+      <Button fx:id="boton1" layoutX="28.0" layoutY="38.0" mnemonicParsing="false" onAction="#accion1" text="Botón1" />
+      <Button fx:id="boton2" layoutX="28.0" layoutY="74.0" mnemonicParsing="false" onAction="#accion2" text="Boton2" />
+      <Button fx:id="boton3" layoutX="28.0" layoutY="112.0" mnemonicParsing="false" onAction="#accion3" text="Botón3" />
+      <Button fx:id="boton4" layoutX="28.0" layoutY="156.0" mnemonicParsing="false" onAction="#accion4" text="Botón4" />
+      <Button fx:id="boton5" layoutX="28.0" layoutY="193.0" mnemonicParsing="false" onAction="#accion5" text="Boton5" />
+      <Button fx:id="boton6" layoutX="28.0" layoutY="232.0" mnemonicParsing="false" onAction="#accion6" text="Boton6" />
+      <Button fx:id="boton7" layoutX="28.0" layoutY="269.0" mnemonicParsing="false" onAction="#accion7" text="Botón7" />
+      <Label layoutX="105.0" layoutY="42.0" prefHeight="17.0" prefWidth="44.0" text="Label" />
+   </children>
+</AnchorPane>
